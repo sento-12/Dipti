@@ -33,48 +33,7 @@ const songs = [
     cover: '/cover/Paro.jpeg',
     file: '/song/Paro.mp3',
   },
-  {
-    name: 'BornToShine',
-    title: 'Born To Shine',
-    cover: '/cover/BornToShine.jpeg',
-    file: '/song/BornToShine.mp3',
-  }, 
-  {
-    name: 'Lorlor',
-    title: 'Lorlor',
-    cover: '/cover/Lorlor.jpeg',
-    file: '/song/Lorlor.mp3',
-  },
-  {
-    name: 'Ranjheya',
-    title: 'Ranjheya',
-    cover: '/cover/Ranjheya.jpeg',
-    file: '/song/Ranjheya.mp3',
-  },
-  {
-    name: 'Roots',
-    title: 'Roots',
-    cover: '/cover/Roots.jpeg',
-    file: '/song/Roots.mp3',
-  },
-  {
-    name: 'Russian',
-    title: 'Russian',
-    cover: '/cover/Russian.jpeg',
-    file: '/song/Russian.mp3',
-  },
-  {
-    name: 'Water',
-    title: 'Water',
-    cover: '/cover/Water.jpeg',
-    file: '/song/Water.mp3',
-  },
-  {
-    name: 'Wavy',
-    title: 'Wavy',
-    cover: '/cover/Wavy.jpeg',
-    file: '/song/Wavy.mp3',
-  },
+  
 ];
 
 const lightingColors = [
