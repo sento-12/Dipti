@@ -11,7 +11,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        {/* Snowfall/Floating Lights Animation */}
+        <div className="snowfall">
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+          <div className="snow-dot"></div>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
