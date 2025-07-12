@@ -26,12 +26,32 @@ body{
     animation: float-right 10s linear infinite;
   }
 
+  .delay-1s {
+    animation-delay: 1s;
+  }
+
   .delay-2s {
     animation-delay: 2s;
   }
 
+  .delay-3s {
+    animation-delay: 3s;
+  }
+
   .delay-4s {
     animation-delay: 4s;
+  }
+
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+
+  .delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .delay-3000 {
+    animation-delay: 3s;
   }
 }
 
@@ -49,6 +69,25 @@ body{
 
 .animate-float {
   animation: float 3s ease-in-out infinite;
+}
+
+/* Responsive balloon animations */
+@media (max-width: 640px) {
+  .animate-float {
+    animation: float 2.5s ease-in-out infinite;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
+
+@media (min-width: 1025px) {
+  .animate-float {
+    animation: float 3.5s ease-in-out infinite;
+  }
 }
 
 

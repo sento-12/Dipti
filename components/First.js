@@ -69,32 +69,32 @@ export default function Home() {
   }, []);
 
   return (
-<>
-    <div ref={scrollRef} data-scroll data-scroll-section data-scroll-speed=".1" className="relative flex items-center justify-center h-screen bg-black overflow-hidden">
-      
-      {/* Stars */}
-      <div className="absolute inset-0 bg-no-repeat bg-cover bg-[url('/stars.png')] z-0"></div>
-      
-      {/* Title */}
-      <div className="relative z-10 flex justify-center items-center w-full h-full">
-        <h1 ref={titleRef} className="flex justify-center text-center items-center w-full text-white text-[5.5vw] font-bold">
-          <span className="left text-right w-1/2 pr-2">WELCOME</span>
-          <span className="right text-left w-1/2 pl-2"> TANU !</span>
-        </h1>
-      </div>
+    <>
+      <div ref={scrollRef} data-scroll data-scroll-section data-scroll-speed=".1" className="relative flex items-center justify-center h-screen bg-black overflow-hidden px-4 sm:px-6 md:px-8">
+        
+        {/* Stars */}
+        <div className="absolute inset-0 bg-no-repeat bg-cover bg-[url('/stars.png')] z-0"></div>
+        
+        {/* Title */}
+        <div className="relative z-10 flex justify-center items-center w-full h-full">
+          <h1 ref={titleRef} className="flex justify-center text-center items-center w-full text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
+            <span className="left text-right w-1/2 pr-1 sm:pr-2">WELCOME</span>
+            <span className="right text-left w-1/2 pl-1 sm:pl-2"> TANU !</span>
+          </h1>
+        </div>
 
-      {/* Balloons */}
-      {[...Array(10)].map((_, i) => (
-        <div
-          key={i}
-          className={`absolute bottom-0 w-12 h-16 bg-pink-300 rounded-full balloon z-10`}
-          style={{
-            left: `${gsap.utils.random(5, 95)}%`,
-            backgroundColor: gsap.utils.random(['#FFC0CB', '#ADD8E6', '#FFD700', '#FF6347', '#90EE90']),
-          }}
-        ></div>
-      ))}    
-    </div>
-</>
+        {/* Balloons */}
+        {[...Array(10)].map((_, i) => (
+          <div
+            key={i}
+            className={`absolute bottom-0 w-8 h-10 sm:w-10 sm:h-12 md:w-12 md:h-16 bg-pink-300 rounded-full balloon z-10`}
+            style={{
+              left: `${gsap.utils.random(5, 95)}%`,
+              backgroundColor: gsap.utils.random(['#FFC0CB', '#ADD8E6', '#FFD700', '#FF6347', '#90EE90']),
+            }}
+          ></div>
+        ))}    
+      </div>
+    </>
   );
 }
