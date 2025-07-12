@@ -19,7 +19,7 @@ export default function Card() {
                         <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 via-blue-200 to-blue-500 shadow-[0_0_24px_8px_rgba(51,153,255,0.4)] border-2 border-blue-300 animate-pulse"></div>
                         <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 via-green-200 to-green-500 shadow-[0_0_24px_8px_rgba(51,255,153,0.4)] border-2 border-green-300 animate-pulse"></div>
                     </div>
-                    <p className="text-xs sm:text-sm text-zinc-400 mt-6 sm:mt-8">I hope you have a great day 💖 — DIVU</p>
+                    <p className="text-xs sm:text-sm text-zinc-400 mt-6 sm:mt-8">I hope you have feel special 💖 — DIVU</p>
                 </div>
             </div>
         </div>
